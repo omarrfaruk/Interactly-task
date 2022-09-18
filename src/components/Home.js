@@ -11,7 +11,7 @@ const Home = () => {
     return (
         <div className='lg:grid lg:grid-cols-2 h-screen'>
             <div>
-                <Video />
+                <Video welcome={'welcome'} />
             </div>
             <div className='flex justify-center items-center px-5'>
                 <div className='flex flex-col gap-y-3'>
