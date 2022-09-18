@@ -7,8 +7,8 @@ const Freebie = () => {
             <div>
                 <Video />
             </div>
-            <div>
-                salma
+            <div className='flex justify-center items-center'>
+                <button className='btn-secondary'>Download "Campaign Structure Guide"</button>
             </div>
         </div>
     );

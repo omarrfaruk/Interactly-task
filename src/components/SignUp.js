@@ -7,8 +7,8 @@ const SignUp = () => {
             <div>
                 <Video />
             </div>
-            <div>
-                <button>signup</button>
+            <div className='flex justify-center items-center'>
+                <button className='btn-secondary'>Sign up for webinar</button>
             </div>
         </div>
     );

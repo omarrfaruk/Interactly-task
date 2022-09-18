@@ -7,8 +7,8 @@ const Campaign = () => {
             <div>
                 <Video />
             </div>
-            <div>
-                <button>shindu</button>
+            <div className='flex justify-center items-center'>
+                <button className='btn-secondary'>Download "Campaign Structure Guide"</button>
             </div>
         </div>
     );

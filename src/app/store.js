@@ -1,5 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit'
+import routingReducer  from '../features/routingSlice'
 
 export const store = configureStore({
-  reducer: {},
+  reducer: {
+    routing:routingReducer
+  },
 })
