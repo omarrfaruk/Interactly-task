@@ -5,7 +5,7 @@
 
 @layer components {
     .btn-primary {
-        @apply py-2 px-4 bg-[#E7E7E7] rounded-full shadow-md hover:outline-[#7D00FE] hover:outline hover:outline-2
+        @apply py-2 text-start text-xl px-4 bg-[#E7E7E7] rounded-full shadow-md hover:outline-[#7D00FE] hover:outline hover:outline-2
     }
 }
 
@@ -14,3 +14,40 @@
         @apply py-2 px-4 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
     }
 }
+
+body {
+    font-family: apercu-pro, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+
+.controls {
+    display: flex;
+    align-items: center;
+    padding-top: 18rem;
+    margin: auto;
+}
+
+.timecontrols {
+    display: flex;
+    align-items: center;
+    position: absolute;
+  }
+  
+  .time_progressbarContainer {
+    background-color: gray;
+    /* border-radius: 15px; */
+    width: 50vw;
+    height: 10px;
+    z-index: 30;
+    position: relative;
+  }
+  
+  .time_progressBar {
+    /* border-radius: 15px; */
+    background-color: indigo;
+    height: 100%;
+  }
+  
+  .controlsTime {
+    color: white;
+  }

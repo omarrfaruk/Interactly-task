@@ -13,11 +13,21 @@ const Home = () => {
             <div>
                 <Video />
             </div>
-            <div className='flex justify-center items-center'>
+            <div className='flex justify-center items-center px-5'>
                 <div className='flex flex-col gap-y-3'>
-                    <button onClick={() => dispatch(routeToCampaign())} className='btn-primary text-xl'>Campaign Structure</button>
-                    <button onClick={() => dispatch(routeToSignUp())} className='btn-primary text-xl'>Learn Facebook Basics</button>
-                    <button onClick={() => dispatch(routeToFreebie())} className='btn-primary text-xl'>3rd Choice</button>
+                    <button onClick={() => dispatch(routeToCampaign())} className='btn-primary'>
+                        <span className='bg-[#7D00FE] text-white text-sm rounded-full mx-3 py-1 px-2'>A</span>
+                        <span>Campaign Structure</span>
+                    </button>
+                    <button onClick={() => dispatch(routeToSignUp())} className='btn-primary'>
+                        <span className='bg-[#7D00FE] text-white text-sm rounded-full mx-3 py-1 px-2'>B</span>
+                        <span>Learn Facebook Basics</span>
+                    </button>
+                    <button onClick={() => dispatch(routeToFreebie())} className='btn-primary'>
+                        <span className='bg-[#7D00FE] text-white text-sm rounded-full mx-3 py-1 px-2'>C</span>
+                        <span>3rd Choice</span>
+                    </button>
+
                 </div>
             </div>
         </div>

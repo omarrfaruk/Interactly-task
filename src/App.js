@@ -7,14 +7,14 @@ import SignUp from './components/SignUp';
 
 const App = () => {
 
-  const salma = useSelector((state) => state.routing)
+  const routingState = useSelector((state) => state.routing)
 
   return (
     <>
-      <Home />
-      {salma.showCampaign && <Campaign />}
-      {salma.showSignUp && <SignUp />}
-      {salma.showFreebie && <Freebie />}
+      {routingState.showHome && <Home />}
+      {routingState.showCampaign && <Campaign />}
+      {routingState.showSignUp && <SignUp />}
+      {routingState.showFreebie && <Freebie />}
     </>
   );
 };
